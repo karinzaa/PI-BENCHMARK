@@ -1,5 +1,4 @@
 ﻿using System;
-
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,13 +15,10 @@ using System.Windows.Shapes;
 using System.Diagnostics;
 using System.Threading;
 using System.IO;
-using System.Text;
 
 namespace ProjectTNI
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -157,8 +153,8 @@ namespace ProjectTNI
 
          
             MessageBoxButton buttons = MessageBoxButton.OK;
-            // Show message box
-            MessageBox.Show("PI BENCHMAEK [VER 0.1 BETA R12019]" + Environment.NewLine + "[DEV BY]" + Environment.NewLine + "Karin Vitoonkijwanit #19100000" + Environment.NewLine + "Karin Vitoonkijwanut #19100000" + Environment.NewLine + "Karin Vitoonkijwanut #19100000" + Environment.NewLine + "Karin Vitoonkijwanut #19100000", "About");
+         
+            MessageBox.Show("PI BENCHMAEK [VER 1.5 BETA R12019]" + Environment.NewLine + "[DEV BY]" + Environment.NewLine + "Karin Vitoonkijwanit #19100000" + Environment.NewLine + "Karin Vitoonkijwanut #19100000" + Environment.NewLine + "Karin Vitoonkijwanut #19100000" + Environment.NewLine + "Karin Vitoonkijwanut #19100000", "About");
         }
 
 
