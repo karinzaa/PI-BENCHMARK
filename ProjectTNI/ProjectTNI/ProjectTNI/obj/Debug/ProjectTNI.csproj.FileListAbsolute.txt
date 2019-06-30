@@ -1,7 +1,6 @@
 C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\bin\Debug\ProjectTNI.exe.config
 C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\bin\Debug\ProjectTNI.exe
 C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\bin\Debug\ProjectTNI.pdb
-C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI.csprojAssemblyReference.cache
 C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\MainWindow.g.cs
 C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\App.g.cs
 C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI_MarkupCompile.cache

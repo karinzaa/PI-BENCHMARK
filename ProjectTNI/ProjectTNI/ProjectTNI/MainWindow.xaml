@@ -10,7 +10,7 @@
         <BitmapImage x:Key="ImageSource1" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\220px-Pi-symbol.svg.ico"/>
     </Window.Resources>
     <Grid>
-        <Label Content="PI BENCHMARK" Margin="-83,85,514,104.5" RenderTransformOrigin="0.5,0.5" FontFamily="Niramit" FontSize="30" Foreground="White" VerticalContentAlignment="Stretch" Cursor="None">
+        <Label Content="PI BENCHMARK" Margin="-83,93,514,96.5" RenderTransformOrigin="0.5,0.5" FontFamily="Niramit" FontSize="30" Foreground="White" VerticalContentAlignment="Stretch" Cursor="None">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -25,25 +25,43 @@
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <ComboBox x:Name="ComboBox1" HorizontalAlignment="Left" Margin="60,30,0,0" VerticalAlignment="Top" Width="320" Height="45" HorizontalContentAlignment="Center" FontSize="24" FontFamily="Niramit" SelectionChanged="ComboBox_SelectionChanged" SelectedIndex="0">
+        <ComboBox x:Name="ComboBox1" HorizontalAlignment="Left" Margin="60,84,0,0" VerticalAlignment="Top" Width="320" Height="70" HorizontalContentAlignment="Center" FontSize="36" FontFamily="Niramit" SelectionChanged="ComboBox_SelectionChanged" SelectedIndex="0" MaxDropDownHeight="500">
             <ComboBox.Effect>
                 <DropShadowEffect/>
             </ComboBox.Effect>
-            <ComboBoxItem Content="1M" FontFamily="Niramit"/>
-            <ComboBoxItem Content="2M" FontFamily="Niramit"/>
-            <ComboBoxItem Content="3M" FontFamily="Niramit"/>
-            <ComboBoxItem Content="4M" FontFamily="Niramit"/>
+            <ComboBoxItem Content="10M" FontFamily="Niramit"/>
+            <ComboBoxItem Content="20M" FontFamily="Niramit"/>
+            <ComboBoxItem Content="30M" FontFamily="Niramit"/>
+            <ComboBoxItem Content="40M" FontFamily="Niramit"/>
+            <ComboBoxItem Content="50M"/>
+            <ComboBoxItem Content="60M"/>
+            <ComboBoxItem Content="70M"/>
+            <ComboBoxItem Content="80M"/>
+            <ComboBoxItem Content="90M"/>
+            <ComboBoxItem Content="100M"/>
         </ComboBox>
-        <ComboBox Margin="60,110,0,0" VerticalAlignment="Top" Width="320" SelectionChanged="ComboBox_SelectionChanged_1" Height="52" HorizontalContentAlignment="Center" FontSize="24" HorizontalAlignment="Left" SelectedIndex="0">
+        <ComboBox Margin="60,290,0,-90.5" VerticalAlignment="Top" Width="320" SelectionChanged="ComboBox_SelectionChanged_1" Height="52" HorizontalContentAlignment="Center" FontSize="24" HorizontalAlignment="Left" SelectedIndex="0" IsEnabled="False">
             <ComboBox.Effect>
                 <DropShadowEffect/>
             </ComboBox.Effect>
-            <ComboBoxItem Content="100" FontSize="24"/>
-            <ComboBoxItem Content="200" AutomationProperties.Name="200"/>
+            <ComboBoxItem Content="1" FontSize="24"/>
+            <ComboBoxItem Content="2" AutomationProperties.Name="200"/>
+            <ComboBoxItem Content="3"/>
+            <ComboBoxItem Content="4"/>
+            <ComboBoxItem Content="5"/>
+            <ComboBoxItem Content="6"/>
+            <ComboBoxItem Content="7"/>
+            <ComboBoxItem Content="8"/>
+            <ComboBoxItem Content="9"/>
+            <ComboBoxItem Content="10"/>
         </ComboBox>
-        <Label Content="Value to calculate" HorizontalAlignment="Left" Margin="60,0,0,0" VerticalAlignment="Top" Foreground="White"/>
-        <Label Content="Duty cycle to calculate" HorizontalAlignment="Left" Margin="60,78,0,0" VerticalAlignment="Top" Foreground="White"/>
-        <Button x:Name="About" Content="About" HorizontalAlignment="Left" Height="48" Margin="60,180,0,0" VerticalAlignment="Top" Width="138" FontSize="24" Click="Button_Click_1"/>
+        <Label Content="Value to calculate" HorizontalAlignment="Left" Margin="60,20,0,0" VerticalAlignment="Top" Foreground="White" FontSize="24" RenderTransformOrigin="0.5,0.154"/>
+        <Label Content="Duty cycle to calculate" HorizontalAlignment="Left" Margin="60,258,0,-38.5" VerticalAlignment="Top" Foreground="White"/>
+        <Button x:Name="About" Content="About" HorizontalAlignment="Left" Height="48" Margin="60,176,0,0" VerticalAlignment="Top" Width="320" FontSize="24" Click="Button_Click_1">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
 
     </Grid>
 </Window>

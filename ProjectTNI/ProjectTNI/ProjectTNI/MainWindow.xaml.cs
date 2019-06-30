@@ -37,21 +37,44 @@ namespace ProjectTNI
         {
             if (ComboBox1.SelectedIndex == 0)
             {
-                x = 1000000;
+                x = 10000000;
             }
             else if (ComboBox1.SelectedIndex == 1)
             {
-                x = 2000000;
+                x = 20000000;
             }
             else if (ComboBox1.SelectedIndex == 2)
             {
-                x = 3000000;
+                x = 30000000;
             }
             else if (ComboBox1.SelectedIndex == 3)
             {
-                x = 4000000;
+                x = 40000000;
             }
-
+            else if (ComboBox1.SelectedIndex == 4)
+            {
+                x = 50000000;
+            }
+            else if (ComboBox1.SelectedIndex == 5)
+            {
+                x = 60000000;
+            }
+            else if (ComboBox1.SelectedIndex == 6)
+            {
+                x = 70000000;
+            }
+            else if (ComboBox1.SelectedIndex == 7)
+            {
+                x = 80000000;
+            }
+            else if (ComboBox1.SelectedIndex == 8)
+            {
+                x = 90000000;
+            }
+            else if (ComboBox1.SelectedIndex == 9)
+            {
+                x = 100000000;
+            }
 
         }
 
@@ -59,11 +82,7 @@ namespace ProjectTNI
         {
             if (ComboBox1.SelectedIndex == 0)
             {
-                y = 10;
-            }
-            else if (ComboBox1.SelectedIndex == 1)
-            {
-                y = 40;
+                y = 1;
             }
         }
 
@@ -73,22 +92,40 @@ namespace ProjectTNI
         {
             var timeSpan = StopwatchHelper.MeasureRunTime(() =>
             {
+           
                 for (double u = 0; u < y; u++)
                 {
-
                     for (double i = 0; i < x; i++)
                     {
-
+                        double minus, plus, time, divide, mod;
                         Random r = new Random();
-                        int genRand = r.Next();
+                        double genRand = r.Next(100000000,999999999);
                         var pi = Math.PI;
-                        pi = pi * genRand;
-                       
+                        minus = pi - genRand;
+                        plus = pi + genRand;
+                        time = pi * genRand;
+                        divide = pi / genRand;
+                        mod = pi % genRand;
                     }
                 }
             });
+            MessageBoxButton buttons = MessageBoxButton.OK;
+            MessageBox.Show(timeSpan.ToString(),"Done");
+            Microsoft.Win32.SaveFileDialog save = new Microsoft.Win32.SaveFileDialog();
+            save.Filter = "Text File|*.txt";
+            save.FileName = "PiBenchmark";
+            save.Title = "Save Text File";
+                if (save.ShowDialog() == true)
+            {
 
-            MessageBox.Show(timeSpan.ToString());
+                string path = save.FileName;
+                StreamWriter print = new StreamWriter(File.Create(path));
+                print.Write("[Value to calculate]=> ");
+                print.Write(x.ToString());
+                print.Write(" [Result]=> ");
+                print.Write(timeSpan.ToString());
+                print.Dispose();
+            }
 
         }
 
@@ -108,8 +145,12 @@ namespace ProjectTNI
             }
         }
 
+        public void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Microsoft.Win32.SaveFileDialog save = new Microsoft.Win32.SaveFileDialog();
 
-
+            
+        }
 
         public void Button_Click_1(object sender, RoutedEventArgs e)
         {
