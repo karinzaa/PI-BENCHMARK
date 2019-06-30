@@ -14,3 +14,8 @@ C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\
 C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI.pdb
 C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\bin\Debug\SplashScreen.dll
 C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI.csproj.CopyComplete
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\bin\Debug\ProjectTNI.exe.manifest
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\bin\Debug\ProjectTNI.application
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI.csprojAssemblyReference.cache
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI.exe.manifest
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI.application
