@@ -1,0 +1,49 @@
+﻿<Window x:Class="ProjectTNI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectTNI"
+        mc:Ignorable="d"
+        Title="PI BENCHMARK" Height="280" Width="663" Background="#FF2C2C2C" ResizeMode="CanMinimize" BorderBrush="#FF292929" WindowStartupLocation="CenterScreen" FontFamily="Niramit" Icon="{DynamicResource ImageSource1}">
+    <Window.Resources>
+        <BitmapImage x:Key="ImageSource1" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\220px-Pi-symbol.svg.ico"/>
+    </Window.Resources>
+    <Grid>
+        <Label Content="PI BENCHMARK" Margin="-83,85,514,104.5" RenderTransformOrigin="0.5,0.5" FontFamily="Niramit" FontSize="30" Foreground="White" VerticalContentAlignment="Stretch" Cursor="None">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button Content="Start" Margin="402,10,9,10.5" Click="Button_Click" FontFamily="Niramit" FontSize="48">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <ComboBox x:Name="ComboBox1" HorizontalAlignment="Left" Margin="60,30,0,0" VerticalAlignment="Top" Width="320" Height="45" HorizontalContentAlignment="Center" FontSize="24" FontFamily="Niramit" SelectionChanged="ComboBox_SelectionChanged" SelectedIndex="0">
+            <ComboBox.Effect>
+                <DropShadowEffect/>
+            </ComboBox.Effect>
+            <ComboBoxItem Content="1M" FontFamily="Niramit"/>
+            <ComboBoxItem Content="2M" FontFamily="Niramit"/>
+            <ComboBoxItem Content="3M" FontFamily="Niramit"/>
+            <ComboBoxItem Content="4M" FontFamily="Niramit"/>
+        </ComboBox>
+        <ComboBox Margin="60,110,0,0" VerticalAlignment="Top" Width="320" SelectionChanged="ComboBox_SelectionChanged_1" Height="52" HorizontalContentAlignment="Center" FontSize="24" HorizontalAlignment="Left" SelectedIndex="0">
+            <ComboBox.Effect>
+                <DropShadowEffect/>
+            </ComboBox.Effect>
+            <ComboBoxItem Content="100" FontSize="24"/>
+            <ComboBoxItem Content="200" AutomationProperties.Name="200"/>
+        </ComboBox>
+        <Label Content="Value to calculate" HorizontalAlignment="Left" Margin="60,0,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Duty cycle to calculate" HorizontalAlignment="Left" Margin="60,78,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Button x:Name="About" Content="About" HorizontalAlignment="Left" Height="48" Margin="60,180,0,0" VerticalAlignment="Top" Width="138" FontSize="24" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

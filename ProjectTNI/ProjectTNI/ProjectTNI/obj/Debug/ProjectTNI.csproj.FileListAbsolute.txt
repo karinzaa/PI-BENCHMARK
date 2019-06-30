@@ -1,0 +1,17 @@
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\bin\Debug\ProjectTNI.exe.config
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\bin\Debug\ProjectTNI.exe
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\bin\Debug\ProjectTNI.pdb
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI.csprojAssemblyReference.cache
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\MainWindow.g.cs
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\App.g.cs
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI_MarkupCompile.cache
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI_MarkupCompile.lref
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\MainWindow.baml
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI.g.resources
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI.Properties.Resources.resources
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI.csproj.GenerateResource.cache
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI.csproj.CoreCompileInputs.cache
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI.exe
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI.pdb
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\bin\Debug\SplashScreen.dll
+C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\obj\Debug\ProjectTNI.csproj.CopyComplete
