@@ -5,10 +5,10 @@
 
 # PI-BENCHMARK
 
-### Project At TNI. </n>
+### Project at TNI. </n>
 
 * This program is benchmark your computer with random PI number and calculate whit + - * / %. </n>
-* This program is not make cpu at full load for simulate standart program in your computer.
+* This program is not make cpu at full load for simulate standard program in your computer.
 
 ### How to use this program. </n>
 * Clone `PI-BENCHMARK` in to your compurter.</n>
@@ -18,8 +18,8 @@
 * Click `Select Value to caculate` in `ComBoBox`.</n> 
 * Click `Start` `Button`.</n> 
 * Waiting your computer caculate
-* If your computer caculate complete program are show time to caculate and show filesave directory windows.
+* If your computer caculate complete program are show caculate time and show filesave directory windows.
 
->***Require `.NET FLramework 4.7.2 or a later update`***
+>***Require `.NET Flramework 4.7.2 or a later update`***
 
 ![Imgur](http://i.imgur.com/z9yRvX2.png?1)
