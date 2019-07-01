@@ -152,7 +152,7 @@ namespace ProjectTNI
          
             MessageBoxButton buttons = MessageBoxButton.OK;
          
-            MessageBox.Show("PI BENCHMAEK [VER 1.5 BETA R12019]" + Environment.NewLine + "[DEV BY]" + Environment.NewLine + "Karin Vitoonkijwanit #19100000" + Environment.NewLine + "Karin Vitoonkijwanut #19100000" + Environment.NewLine + "Karin Vitoonkijwanut #19100000" + Environment.NewLine + "Karin Vitoonkijwanut #19100000", "About");
+            MessageBox.Show("PI BENCHMAEK [VER 1.0 BETA R12019]" + Environment.NewLine + "[DEV BY]" + Environment.NewLine + "Karin Vitoonkijwanit #1913110449" + Environment.NewLine + "" + Environment.NewLine + "" + Environment.NewLine + "", "About");
         }
 
 
