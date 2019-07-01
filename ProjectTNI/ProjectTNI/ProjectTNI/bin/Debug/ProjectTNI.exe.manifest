@@ -43,6 +43,30 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialDesignColors.dll" size="224256">
+      <assemblyIdentity name="MaterialDesignColors" version="1.1.2.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>d4wZkVSpfjUBqYKDtRfNT80gSBwKfOiY66XUQlfkFX0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialDesignThemes.Wpf.dll" size="5553664">
+      <assemblyIdentity name="MaterialDesignThemes.Wpf" version="2.5.1.1345" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NiWdd89+nc/VAtW+Wx3RsClBQBLysHtrOkLs7iPXeoo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProjectTNI.exe" size="401904">
       <assemblyIdentity name="ProjectTNI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -50,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>eXgt6Egy3+37kCWRvlC+D2NDBFW0haOvZsSsnULnTqY=</dsig:DigestValue>
+        <dsig:DigestValue>3yIBDNOAknvRmwt3Q94aUt8B1Iwnp397aWLSGiBi08Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

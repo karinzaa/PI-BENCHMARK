@@ -24,9 +24,7 @@ namespace ProjectTNI
         public MainWindow()
         {
             InitializeComponent();
-            
         }
-
 
         double x,y;
         public void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)

@@ -9,8 +9,8 @@
     <Window.Resources>
         <BitmapImage x:Key="ImageSource1" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Karinzaa\Desktop\1913110449\ProjectTNI\ProjectTNI\ProjectTNI\220px-Pi-symbol.svg.ico"/>
     </Window.Resources>
-    <Grid>
-        <Label Content="PI BENCHMARK" Margin="-83,93,514,96.5" RenderTransformOrigin="0.5,0.5" FontFamily="Niramit" FontSize="30" Foreground="White" VerticalContentAlignment="Stretch" Cursor="None">
+    <Grid Background="#FF343434">
+        <Label Content="PI BENCHMARK" Margin="-87,85,518,105.5" RenderTransformOrigin="0.5,0.5" FontFamily="Niramit" FontSize="30" Foreground="White" VerticalContentAlignment="Stretch" Cursor="None">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
