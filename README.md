@@ -20,6 +20,6 @@
 * Waiting your computer caculate
 * If your computer caculate complete program are show caculate time and show filesave directory windows.
 
->***Require `.NET Flramework 4.7.2 or a later update`***
+>***Require `.NET Framework 4.7.2 or a later update`***
 
 ![Imgur](http://i.imgur.com/z9yRvX2.png?1)
