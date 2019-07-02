@@ -109,7 +109,7 @@ namespace ProjectTNI
             CurrentDate = DateTime.Now;
             Microsoft.Win32.SaveFileDialog save = new Microsoft.Win32.SaveFileDialog();
             save.Filter = "Text File|*.txt";
-            save.FileName = " PiBenchmark "+ CurrentDate.ToLongDateString();
+            save.FileName = " PI_BENCHMARK "+ CurrentDate.ToLongDateString();
             save.Title = "Save Text File";
                 if (save.ShowDialog() == true)
             {
