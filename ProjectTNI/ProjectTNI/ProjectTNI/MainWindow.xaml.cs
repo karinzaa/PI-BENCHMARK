@@ -109,18 +109,21 @@ namespace ProjectTNI
             CurrentDate = DateTime.Now;
             Microsoft.Win32.SaveFileDialog save = new Microsoft.Win32.SaveFileDialog();
             save.Filter = "Text File|*.txt";
-            save.FileName = " PI_BENCHMARK "+ CurrentDate.ToLongDateString();
-            save.Title = "Save Text File";
+            save.FileName = "PI_BENCHMARK"+ "[" + x.ToString() + "]";
+            save.Title = "Save Benchmark Text File";
                 if (save.ShowDialog() == true)
             {
 
+
                 string path = save.FileName;
                 StreamWriter print = new StreamWriter(File.Create(path));
-                print.Write(CurrentDate.ToLongTimeString());
-                print.Write(" [Value to calculate]=> ");
-                print.Write(x.ToString());
-                print.Write(" [Result]=> ");
-                print.Write(timeSpan.ToString());
+                print.Write(CurrentDate.ToLongDateString());
+                print.Write(" ");
+                print.WriteLine(CurrentDate.ToLongTimeString());
+                print.Write("[Value to calculate]=> ");
+                print.WriteLine(x.ToString());
+                print.Write("[Result]=> ");
+                print.WriteLine(timeSpan.ToString());
                 print.Dispose();
             }
 
@@ -140,13 +143,6 @@ namespace ProjectTNI
 
                 return watch.Elapsed;
             }
-        }
-
-        public void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            Microsoft.Win32.SaveFileDialog save = new Microsoft.Win32.SaveFileDialog();
-
-            
         }
 
         public void Button_Click_1(object sender, RoutedEventArgs e)
