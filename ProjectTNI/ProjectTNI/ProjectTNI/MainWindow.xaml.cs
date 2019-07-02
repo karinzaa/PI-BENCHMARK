@@ -105,16 +105,19 @@ namespace ProjectTNI
             });
             MessageBoxButton buttons = MessageBoxButton.OK;
             MessageBox.Show(timeSpan.ToString(),"Done");
+            DateTime CurrentDate;
+            CurrentDate = DateTime.Now;
             Microsoft.Win32.SaveFileDialog save = new Microsoft.Win32.SaveFileDialog();
             save.Filter = "Text File|*.txt";
-            save.FileName = "PiBenchmark";
+            save.FileName = " PiBenchmark "+ CurrentDate.ToLongDateString();
             save.Title = "Save Text File";
                 if (save.ShowDialog() == true)
             {
 
                 string path = save.FileName;
                 StreamWriter print = new StreamWriter(File.Create(path));
-                print.Write("[Value to calculate]=> ");
+                print.Write(CurrentDate.ToLongTimeString());
+                print.Write(" [Value to calculate]=> ");
                 print.Write(x.ToString());
                 print.Write(" [Result]=> ");
                 print.Write(timeSpan.ToString());
@@ -152,7 +155,7 @@ namespace ProjectTNI
          
             MessageBoxButton buttons = MessageBoxButton.OK;
          
-            MessageBox.Show("PI BENCHMAEK [VER 1.0 BETA R12019]" + Environment.NewLine + "[DEV BY]" + Environment.NewLine + "Karin Vitoonkijwanit #1913110449" + Environment.NewLine + "" + Environment.NewLine + "" + Environment.NewLine + "", "About");
+            MessageBox.Show("PI BENCHMAEK [VER 1.1 BETA R12019]" + Environment.NewLine + "[DEV BY]" + Environment.NewLine + "Karin Vitoonkijwanit #1913110449" + Environment.NewLine + "Songkiet Siriso #1913110498" + Environment.NewLine + "" + Environment.NewLine + "", "About");
         }
 
 
