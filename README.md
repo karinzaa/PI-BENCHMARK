@@ -13,7 +13,8 @@
 ### How to use this program. </n>
 * Clone `PI-BENCHMARK` in to your compurter.</n>
 * Unzip `PI-BENCHMARK.zip`</n>
-* Get in to `ProjectTNI\ProjectTNI\ProjectTNI\bin\Debug\app.publish`.</n>
+*Classic Version get in to `ProjectTNI\ProjectTNI\ProjectTNI\bin\Debug\app.publish`.*</n>
+*FluentDesign Version get in to `ProjectTNI\ProjectTNI\ProjectTNI\bin\Debug\app.publish`.*</n>
 * Open`ProjectTNI.exe`</n> 
 * Click `Select Value to caculate` in `ComBoBox`.</n> 
 * Click `Start` `Button`.</n> 
