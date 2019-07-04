@@ -1,0 +1,40 @@
+﻿<Window x:Class="ProjectTNIFluentDesign.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectTNIFluentDesign"
+        xmlns:fw="clr-namespace:SourceChord.FluentWPF;assembly=FluentWPF"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="PI BENCHMARK" Height="250.5" Width="558.5"
+        fw:AcrylicWindow.Enabled="True" ResizeMode="CanMinimize"  Foreground="White" Background="Transparent" >
+    <Grid fw:PointerTracker.Enabled="True">
+        <Button x:Name="Button1" Content="Start" HorizontalAlignment="Left" Margin="314,10,0,0" VerticalAlignment="Top" Width="229" Height="194" Background="Transparent"  Style="{StaticResource ButtonRevealStyle}" Foreground="White" FontFamily="Niramit" FontSize="40" Click="Button_Click"/>
+        <ComboBox x:Name="ComboBox1" HorizontalAlignment="Left" Margin="60,76,0,0" VerticalAlignment="Top" Width="237" BorderBrush="#89FFFFFF" Height="54" FontFamily="Niramit" FontSize="24" SelectedIndex="0" HorizontalContentAlignment="Center" MaxDropDownHeight="180" SelectionChanged="ComboBox_SelectionChanged" Background="White" Foreground="Black" >
+            <ComboBoxItem Content="10M" />
+            <ComboBoxItem Content="20M" />
+            <ComboBoxItem Content="30M" />
+            <ComboBoxItem Content="40M" />
+            <ComboBoxItem Content="50M" />
+            <ComboBoxItem Content="60M" />
+            <ComboBoxItem Content="70M" />
+            <ComboBoxItem Content="80M" />
+            <ComboBoxItem Content="90M" />
+            <ComboBoxItem Content="100M" />
+        </ComboBox>
+        <Button x:Name="Button2" Content="About" HorizontalAlignment="Left" Margin="60,150,0,0" VerticalAlignment="Top" Width="237" Height="54" Background= "Transparent" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFFEFEFE" FontFamily="Niramit" FontSize="24" Click="Button1_Click"/>
+        <Label Content="PI BENCHMARK" Margin="-90,71,420.5,93" RenderTransformOrigin="0.5,0.5" FontFamily="Niramit" FontSize="30" Foreground="White" VerticalContentAlignment="Stretch">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Value to calculate" HorizontalAlignment="Left" Margin="60,16,0,0" VerticalAlignment="Top" Foreground="White" FontSize="24" RenderTransformOrigin="0.5,0.154"/>
+
+    </Grid>
+</Window>
