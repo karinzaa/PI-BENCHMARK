@@ -8,10 +8,65 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
         Title="PI BENCHMARK" Height="250.5" Width="558.5"
-        fw:AcrylicWindow.Enabled="True" ResizeMode="CanMinimize"  Foreground="White" Background="Transparent" >
+        fw:AcrylicWindow.Enabled="True" ResizeMode="CanMinimize"  Foreground="White" Background="Transparent" WindowStartupLocation="CenterScreen" >
+    <Window.Resources>
+        <Storyboard x:Key="Storyboard1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label">
+                <SplineDoubleKeyFrame KeyTime="0" Value="-42"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="-42" KeySpline="0.24,0.95,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="0" KeySpline="0.24,0.95,1,1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="label">
+                <SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="0" KeySpline="0.24,0.95,1,1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="label1">
+                <SplineDoubleKeyFrame KeyTime="0" Value="-54"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.9" Value="-54" KeySpline="0.01,0.84,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="0" KeySpline="0.01,0.84,1,1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="ComboBox1">
+                <SplineDoubleKeyFrame KeyTime="0" Value="-135"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="-135" KeySpline="0,1,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="0" KeySpline="0,1,1,1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Button2">
+                <SplineDoubleKeyFrame KeyTime="0" Value="79"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1" Value="79" KeySpline="0,1,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.6" Value="0" KeySpline="0,1,1,1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Button1">
+                <SplineDoubleKeyFrame KeyTime="0" Value="248"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.8" Value="248" KeySpline="0,1,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="0" KeySpline="0,1,1,1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
+        </EventTrigger>
+    </Window.Triggers>
     <Grid fw:PointerTracker.Enabled="True">
-        <Button x:Name="Button1" Content="Start" HorizontalAlignment="Left" Margin="314,10,0,0" VerticalAlignment="Top" Width="229" Height="194" Background="Transparent"  Style="{StaticResource ButtonRevealStyle}" Foreground="White" FontFamily="Niramit" FontSize="40" Click="Button_Click"/>
-        <ComboBox x:Name="ComboBox1" HorizontalAlignment="Left" Margin="60,76,0,0" VerticalAlignment="Top" Width="237" BorderBrush="#89FFFFFF" Height="54" FontFamily="Niramit" FontSize="24" SelectedIndex="0" HorizontalContentAlignment="Center" MaxDropDownHeight="180" SelectionChanged="ComboBox_SelectionChanged" Background="White" Foreground="Black" >
+        <Button x:Name="Button1" Content="Start" HorizontalAlignment="Left" Margin="314,10,0,0" VerticalAlignment="Top" Width="229" Height="194" Background="Transparent"  Style="{StaticResource ButtonRevealStyle}" Foreground="White" FontFamily="Niramit" FontSize="40" Click="Button_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <ComboBox x:Name="ComboBox1" HorizontalAlignment="Left" Margin="60,76,0,0" VerticalAlignment="Top" Width="237" BorderBrush="#89FFFFFF" Height="54" FontFamily="Niramit" FontSize="24" SelectedIndex="0" HorizontalContentAlignment="Center" MaxDropDownHeight="180" SelectionChanged="ComboBox_SelectionChanged" Background="White" Foreground="Black" RenderTransformOrigin="0.5,0.5" >
+            <ComboBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ComboBox.RenderTransform>
             <ComboBoxItem Content="10M" />
             <ComboBoxItem Content="20M" />
             <ComboBoxItem Content="30M" />
@@ -23,8 +78,17 @@
             <ComboBoxItem Content="90M" />
             <ComboBoxItem Content="100M" />
         </ComboBox>
-        <Button x:Name="Button2" Content="About" HorizontalAlignment="Left" Margin="60,150,0,0" VerticalAlignment="Top" Width="237" Height="54" Background= "Transparent" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFFEFEFE" FontFamily="Niramit" FontSize="24" Click="Button1_Click"/>
-        <Label Content="PI BENCHMARK" Margin="-90,71,420.5,93" RenderTransformOrigin="0.5,0.5" FontFamily="Niramit" FontSize="30" Foreground="White" VerticalContentAlignment="Stretch">
+        <Button x:Name="Button2" Content="About" HorizontalAlignment="Left" Margin="60,150,0,0" VerticalAlignment="Top" Width="237" Height="54" Background= "Transparent" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFFEFEFE" FontFamily="Niramit" FontSize="24" Click="Button1_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label x:Name="label" Content="PI BENCHMARK" Margin="-90,71,420.5,93" RenderTransformOrigin="0.5,0.5" FontFamily="Niramit" FontSize="30" Foreground="White" VerticalContentAlignment="Stretch">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -34,7 +98,16 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Label Content="Value to calculate" HorizontalAlignment="Left" Margin="60,16,0,0" VerticalAlignment="Top" Foreground="White" FontSize="24" RenderTransformOrigin="0.5,0.154"/>
+        <Label x:Name="label1" Content="Value to calculate" HorizontalAlignment="Left" Margin="60,16,0,0" VerticalAlignment="Top" Foreground="White" FontSize="24" RenderTransformOrigin="0.5,0.154">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
 
     </Grid>
 </Window>
