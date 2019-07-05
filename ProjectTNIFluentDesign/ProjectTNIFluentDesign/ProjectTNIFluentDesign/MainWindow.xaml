@@ -48,7 +48,6 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Pi_Benchmark_PNG">
                 <SplineDoubleKeyFrame KeySpline="0,1,1,1" KeyTime="0" Value="0"/>
                 <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
                 <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="0.91"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="label">
