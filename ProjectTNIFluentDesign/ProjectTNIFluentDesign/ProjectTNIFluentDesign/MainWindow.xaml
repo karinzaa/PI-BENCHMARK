@@ -8,7 +8,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
         Title="PI BENCHMARK" Height="250.5" Width="558.5"
-        fw:AcrylicWindow.Enabled="True" ResizeMode="CanMinimize"  Foreground="White" Background="Transparent" WindowStartupLocation="CenterScreen" >
+        fw:AcrylicWindow.Enabled="True" ResizeMode="CanMinimize"  Foreground="White" Background="Transparent" WindowStartupLocation="CenterScreen" Icon="Pi_Benchmark.PNG" >
     <Window.Resources>
         <Storyboard x:Key="Storyboard1">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label">
