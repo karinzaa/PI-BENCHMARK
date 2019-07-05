@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pi_benchmark.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pi_benchmarkicon.png")]
 
 

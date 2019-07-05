@@ -8,7 +8,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
         Title="PI BENCHMARK" Height="250.5" Width="558.5"
-        fw:AcrylicWindow.Enabled="True" ResizeMode="CanMinimize"  Foreground="White" Background="Transparent" WindowStartupLocation="CenterScreen" Icon="Pi_Benchmark.PNG" >
+        fw:AcrylicWindow.Enabled="True" ResizeMode="CanMinimize"  Foreground="White" Background="Transparent" WindowStartupLocation="CenterScreen" Icon="Pi_BenchmarkIcon.PNG" >
     <Window.Resources>
         <Storyboard x:Key="Storyboard1">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label">
@@ -39,6 +39,42 @@
                 <SplineDoubleKeyFrame KeyTime="0" Value="248"/>
                 <SplineDoubleKeyFrame KeyTime="0:0:0.8" Value="248" KeySpline="0,1,1,1"/>
                 <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="0" KeySpline="0,1,1,1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Pi_Benchmark_PNG">
+                <SplineDoubleKeyFrame KeyTime="0" Value="-50"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="-50" KeySpline="0,1,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="2" KeySpline="0,1,1,1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Pi_Benchmark_PNG">
+                <SplineDoubleKeyFrame KeySpline="0,1,1,1" KeyTime="0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="0.91"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="label">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="label1">
+                <SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.9" Value="0" KeySpline="0,1,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="1" KeySpline="0,1,1,1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ComboBox1">
+                <SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="0" KeySpline="0,1,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="1" KeySpline="0,1,1,1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Button1">
+                <SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.8" Value="0" KeySpline="0,1,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="1" KeySpline="0,1,1,1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Button2">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
     </Window.Resources>
@@ -88,7 +124,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Label x:Name="label" Content="PI BENCHMARK" Margin="-90,71,420.5,93" RenderTransformOrigin="0.5,0.5" FontFamily="Niramit" FontSize="30" Foreground="White" VerticalContentAlignment="Stretch">
+        <Label x:Name="label" Content="PI BENCHMARK" Margin="-61.5,60.5,439,103.5" RenderTransformOrigin="0.5,0.5" FontFamily="Niramit" FontSize="25" Foreground="White" VerticalContentAlignment="Stretch">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -108,6 +144,16 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
+        <Image x:Name="Pi_Benchmark_PNG" Height="32.333" Margin="10,0,0,9" Source="Pi_BenchmarkIcon.PNG" Stretch="Fill" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="32.333" RenderTransformOrigin="0.5,0.5" OpacityMask="{x:Null}">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
 
     </Grid>
 </Window>
