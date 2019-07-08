@@ -34,9 +34,8 @@ namespace ProjectTNIFluentDesign
 
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
-            MessageBoxButton buttons = MessageBoxButton.OK;
-
-            MessageBox.Show("PI BENCHMAEK    [VER 1.1 BETA R12019]" + Environment.NewLine + "[Code Name]               未来              Mirai" + Environment.NewLine + "[DEV BY]" + Environment.NewLine + "Karin Vitoonkijwanit           #1913110449" + Environment.NewLine + "Songkiet Siriso                    #1913110498" + Environment.NewLine + "Devid Sykes                         #1913110480" + Environment.NewLine + "Ratiphol Thammawattana #1913140016", "About");
+            About sw = new About();
+            sw.Show();
         }
 
         public void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)

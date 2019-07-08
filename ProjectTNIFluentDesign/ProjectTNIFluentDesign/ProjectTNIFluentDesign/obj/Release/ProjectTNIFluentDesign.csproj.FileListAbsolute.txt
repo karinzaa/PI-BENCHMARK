@@ -21,3 +21,5 @@ C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFlue
 C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Release\ProjectTNIFluentDesign.exe
 C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Release\ProjectTNIFluentDesign.pdb
 C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Release\ProjectTNIFluentDesign.csprojAssemblyReference.cache
+C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Release\About.g.cs
+C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Release\About.baml
