@@ -36,7 +36,7 @@ namespace ProjectTNIFluentDesign
         {
             MessageBoxButton buttons = MessageBoxButton.OK;
 
-            MessageBox.Show("PI BENCHMAEK [VER 1.1 BETA R12019]" + Environment.NewLine + "[Code Name]              未来            Mirai" + Environment.NewLine + "[DEV BY]" + Environment.NewLine + "Karin Vitoonkijwanit         #1913110449" + Environment.NewLine + "Songkiet Siriso                  #1913110498" + Environment.NewLine + "Devid Sykes                       #1913110480" + Environment.NewLine + "", "About");
+            MessageBox.Show("PI BENCHMAEK    [VER 1.1 BETA R12019]" + Environment.NewLine + "[Code Name]               未来              Mirai" + Environment.NewLine + "[DEV BY]" + Environment.NewLine + "Karin Vitoonkijwanit           #1913110449" + Environment.NewLine + "Songkiet Siriso                    #1913110498" + Environment.NewLine + "Devid Sykes                         #1913110480" + Environment.NewLine + "Ratiphol Thammawattana #1913140016", "About");
         }
 
         public void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -126,7 +126,7 @@ namespace ProjectTNIFluentDesign
             Microsoft.Win32.SaveFileDialog save = new Microsoft.Win32.SaveFileDialog();
             save.Filter = "Text File|*.txt";
             save.FileName = "PI_BENCHMARK" + "[" + x.ToString() + "]";
-            save.Title = "Save Benchmark Text File";
+            save.Title = "Save Benchmark Result Text File";
             if (save.ShowDialog() == true)
             {
 
