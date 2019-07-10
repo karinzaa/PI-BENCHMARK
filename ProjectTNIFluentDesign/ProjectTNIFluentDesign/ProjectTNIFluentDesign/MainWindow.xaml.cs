@@ -16,8 +16,10 @@ using System.Diagnostics;
 using System.Threading;
 using System.IO;
 
+
 namespace ProjectTNIFluentDesign
 {
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>

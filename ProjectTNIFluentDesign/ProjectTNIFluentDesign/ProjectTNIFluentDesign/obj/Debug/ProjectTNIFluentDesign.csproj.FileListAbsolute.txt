@@ -69,3 +69,5 @@ C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFlue
 C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Debug\ProjectTNIFluentDesign.pdb
 C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Debug\About.g.cs
 C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Debug\About.baml
+C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Debug\SplashScreenWindow.g.cs
+C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Debug\SplashScreenWindow.baml
