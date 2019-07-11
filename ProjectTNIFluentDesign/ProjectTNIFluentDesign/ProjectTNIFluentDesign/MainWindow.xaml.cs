@@ -36,7 +36,7 @@ namespace ProjectTNIFluentDesign
 
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
-            About sw = new About();
+            SystemInfo sw = new SystemInfo();
             sw.Show();
         }
 
@@ -97,6 +97,12 @@ namespace ProjectTNIFluentDesign
 
                 return watch.Elapsed;
             }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            About sw = new About();
+            sw.Show();
         }
 
         public void Button_Click(object sender, RoutedEventArgs e)

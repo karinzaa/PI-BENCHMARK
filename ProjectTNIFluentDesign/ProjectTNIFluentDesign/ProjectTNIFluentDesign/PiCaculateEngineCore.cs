@@ -15,9 +15,9 @@ using System.Windows.Shapes;
 using System.Diagnostics;
 using System.Threading;
 using System.IO;
-namespace ProjectTNIFluentDesign
 
-{
+
+
     class PiCaculateEngineCore
     {
         /*
@@ -83,5 +83,3 @@ namespace ProjectTNIFluentDesign
         } 
      */
     }
-
-}
