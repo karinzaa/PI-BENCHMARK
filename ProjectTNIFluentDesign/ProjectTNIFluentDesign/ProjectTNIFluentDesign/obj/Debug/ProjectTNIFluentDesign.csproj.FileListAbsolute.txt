@@ -71,3 +71,5 @@ C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFlue
 C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Debug\About.baml
 C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Debug\SplashScreenWindow.g.cs
 C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Debug\SplashScreenWindow.baml
+C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Debug\SystemInfo.g.cs
+C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Debug\SystemInfo.baml

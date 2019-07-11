@@ -23,3 +23,7 @@ C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFlue
 C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Release\ProjectTNIFluentDesign.csprojAssemblyReference.cache
 C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Release\About.g.cs
 C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Release\About.baml
+C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Release\SplashScreenWindow.g.cs
+C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Release\SplashScreenWindow.baml
+C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Release\SystemInfo.g.cs
+C:\Users\Karinzaa\Desktop\PI-BENCHMARK-master\PI-BENCHMARK-master\ProjectTNIFluentDesign\ProjectTNIFluentDesign\ProjectTNIFluentDesign\obj\Release\SystemInfo.baml
