@@ -72,7 +72,7 @@ namespace ProjectTNIFluentDesign
 
                 string path = save.FileName;
                 StreamWriter print = new StreamWriter(File.Create(path));
-                print.Write(DeviceInformation("Win32_Processor"));
+                print.WriteLine(DeviceInformation("Win32_Processor"));
                 print.Write(DeviceInformation("Win32_PhysicalMemory"));
                 print.Dispose();
             }

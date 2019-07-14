@@ -15,6 +15,8 @@ using System.Windows.Shapes;
 using System.Diagnostics;
 using System.Threading;
 using System.IO;
+using System.Management;
+using Microsoft.Win32;
 
 
 namespace ProjectTNIFluentDesign
@@ -39,7 +41,32 @@ namespace ProjectTNIFluentDesign
             SystemInfo sw = new SystemInfo();
             sw.Show();
         }
-
+        private string DeviceInformation(string stringIn)
+        {
+            StringBuilder StringBuilder1 = new StringBuilder(string.Empty);
+            ManagementClass ManagementClass1 = new ManagementClass(stringIn);
+            //Create a ManagementObjectCollection to loop through
+            ManagementObjectCollection ManagemenobjCol = ManagementClass1.GetInstances();
+            //Get the properties in the class
+            PropertyDataCollection properties = ManagementClass1.Properties;
+            foreach (ManagementObject obj in ManagemenobjCol)
+            {
+                foreach (PropertyData property in properties)
+                {
+                    try
+                    {
+                        StringBuilder1.AppendLine(property.Name + ":  " +
+                          obj.Properties[property.Name].Value.ToString());
+                    }
+                    catch
+                    {
+                        //Add codes to manage more informations
+                    }
+                }
+                StringBuilder1.AppendLine();
+            }
+            return StringBuilder1.ToString();
+        }
         public void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (ComboBox1.SelectedIndex == 0)
@@ -114,15 +141,19 @@ namespace ProjectTNIFluentDesign
                 {
                     for (double i = 0; i < x; i++)
                     {
-                        double minus, plus, time, divide, mod;
+                        double sq, re, minus , time, plus, divide, mod;
                         Random r = new Random();
                         double genRand = r.Next(100000000, 999999999);
                         var pi = Math.PI;
-                        minus = pi - genRand;
-                        plus = pi + genRand;
-                        time = pi * genRand;
-                        divide = pi / genRand;
-                        mod = pi % genRand;
+                        sq = pi * genRand * genRand;
+                        re = 2 * pi * genRand;
+                        minus = sq - re;
+                        time = sq * re;
+                        plus = sq + re;
+                        divide = sq / re;
+                        mod = sq % re;
+
+
                     }
                 }
             });
@@ -147,6 +178,9 @@ namespace ProjectTNIFluentDesign
                 print.WriteLine(x.ToString());
                 print.Write("[Result]=> ");
                 print.WriteLine(timeSpan.ToString());
+                print.WriteLine(" ");
+                print.Write(DeviceInformation("Win32_Processor"));
+                print.Write(DeviceInformation("Win32_PhysicalMemory"));
                 print.Dispose();
             }
         }

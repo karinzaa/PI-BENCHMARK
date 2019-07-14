@@ -153,7 +153,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="10,181,0,0" VerticalAlignment="Top" Width="32" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_1"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="12,177,0,0" VerticalAlignment="Top" Width="32" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_1"/>
 
     </Grid>
 </Window>

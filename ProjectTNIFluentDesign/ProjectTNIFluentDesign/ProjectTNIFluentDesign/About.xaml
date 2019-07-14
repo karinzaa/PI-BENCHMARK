@@ -134,7 +134,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Label x:Name="label_Copy2" Content="PI BENCHMAEK [VER 1.1 BETA R12019]" Margin="241.417,22,27.5,0" FontSize="16" Foreground="#DDFFFFFF" FontFamily="Niramit" Height="44" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+        <Label x:Name="label_Copy2" Content="PI BENCHMAEK [VER 1.2 BETA R12019]" Margin="241.417,22,27.5,0" FontSize="16" Foreground="#DDFFFFFF" FontFamily="Niramit" Height="44" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
