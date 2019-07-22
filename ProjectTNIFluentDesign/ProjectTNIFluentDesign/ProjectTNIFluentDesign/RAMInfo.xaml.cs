@@ -13,17 +13,15 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Management;
 using Microsoft.Win32;
-using System.IO;
-
 
 namespace ProjectTNIFluentDesign
 {
     /// <summary>
-    /// Interaction logic for SystemInfo.xaml
+    /// Interaction logic for RAMInfo.xaml
     /// </summary>
-    public partial class SystemInfo : Window
+    public partial class RAMInfo : Window
     {
-        public SystemInfo()
+        public RAMInfo()
         {
             InitializeComponent();
         }
@@ -55,49 +53,14 @@ namespace ProjectTNIFluentDesign
             return StringBuilder1.ToString();
         }
 
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            textBox1.Text = DeviceInformation("Win32_PhysicalMemory");
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
-        }
-
-        private void Button1_Click(object sender, RoutedEventArgs e)
-        {
-            Microsoft.Win32.SaveFileDialog save = new Microsoft.Win32.SaveFileDialog();
-            save.Filter = "Text File|*.txt";
-            save.FileName = "PI_BENCHMARK_SYSTEMINFO";
-            save.Title = "Save SystemInfo Text File";
-            if (save.ShowDialog() == true)
-            {
-
-
-                string path = save.FileName;
-                StreamWriter print = new StreamWriter(File.Create(path));
-                print.WriteLine(DeviceInformation("Win32_Processor"));
-                print.Write(DeviceInformation("Win32_PhysicalMemory"));
-                print.Dispose();
-            }
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            textBlock1.Text = HardwareInfo.GetProcessorId();
-        }
-        private void TextBox2_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            textBlock2.Text = HardwareInfo.GetPhysicalMemory();
-        }
-
-        private void More_Click(object sender, RoutedEventArgs e)
-        {
-            CPUInfo cpu = new CPUInfo();
-            cpu.Show();
-        }
-
-        private void More2_Click(object sender, RoutedEventArgs e)
-        {
-            RAMInfo ram = new RAMInfo();
-            ram.Show();
-            
         }
     }
 }

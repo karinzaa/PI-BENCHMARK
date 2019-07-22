@@ -27,6 +27,7 @@ namespace ProjectTNIFluentDesign
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
@@ -134,11 +135,13 @@ namespace ProjectTNIFluentDesign
 
         public void Button_Click(object sender, RoutedEventArgs e)
         {
+
             var timeSpan = StopwatchHelper.MeasureRunTime(() =>
             {
 
                 for (double u = 0; u < y; u++)
                 {
+
                     for (double i = 0; i < x; i++)
                     {
                         double sq, re, minus , time, plus, divide, mod;
@@ -152,11 +155,14 @@ namespace ProjectTNIFluentDesign
                         plus = sq + re;
                         divide = sq / re;
                         mod = sq % re;
-
+                      
 
                     }
+                   
                 }
+
             });
+
             MessageBoxButton buttons = MessageBoxButton.OK;
             MessageBox.Show(timeSpan.ToString(), "Done");
             DateTime CurrentDate;
