@@ -94,7 +94,7 @@
         </EventTrigger>
     </Window.Triggers>
     <Grid fw:PointerTracker.Enabled="True">
-        <Button x:Name="button" Content="OK" Height="53" Margin="163,0,176,10.5" VerticalAlignment="Bottom" Style="{StaticResource ButtonRevealStyle}" Foreground="White" Background="{x:Null}" FontFamily="Niramit" RenderTransformOrigin="0.5,0.5" Click="Button_Click" FontSize="22" >
+        <Button x:Name="button" Content="OK" Height="53" Margin="163,0,176,10.5" VerticalAlignment="Bottom" Style="{StaticResource ButtonRevealStyle}" Foreground="White" Background="{x:Null}" RenderTransformOrigin="0.5,0.5" Click="Button_Click" FontSize="22" >
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -114,7 +114,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Label x:Name="label_Copy" Content="Code Name" HorizontalAlignment="Left" Margin="10,9,0,0" Width="92.25" Foreground="#DDFFFFFF" Height="38" VerticalAlignment="Top" FontFamily="Niramit" FontSize="15" RenderTransformOrigin="0.5,0.5">
+        <Label x:Name="label_Copy" Content="Code Name" HorizontalAlignment="Left" Margin="10,9,0,0" Width="92.25" Foreground="#DDFFFFFF" Height="38" VerticalAlignment="Top" FontSize="15" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -124,7 +124,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Label x:Name="label_Copy1" Content="Mirai" HorizontalAlignment="Left" Margin="76.667,0,0,103.833" Width="49.667" FontSize="18" Foreground="#DDFFFFFF" FontFamily="Niramit" Height="44" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5">
+        <Label x:Name="label_Copy1" Content="Mirai" HorizontalAlignment="Left" Margin="76.667,0,0,103.833" Width="49.667" FontSize="18" Foreground="#DDFFFFFF" Height="44" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -134,7 +134,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Label x:Name="label_Copy2" Content="PI BENCHMAEK [VER 1.2 BETA R12019]" Margin="241.417,22,27.5,0" FontSize="16" Foreground="#DDFFFFFF" FontFamily="Niramit" Height="44" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+        <Label x:Name="label_Copy2" Content="PI BENCHMAEK [VER 1.3 BETA R1 2019]" Margin="241,22,10,0" FontSize="16" Foreground="#DDFFFFFF" Height="44" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -144,7 +144,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Label x:Name="label_Copy3" Content="DEV BY&#xA;Karin Vitoonkijwanit            #1913110449&#xA;Songkiet Siriso                     #1913110498&#xA;Devid Sykes                          #1913110480&#xA;Ratiphol Thammawattana   #1913140016" Margin="211.667,87.5,29.916,68.5" FontSize="16" Foreground="#DDFFFFFF" FontFamily="Niramit" RenderTransformOrigin="0.5,0.5">
+        <Label x:Name="label_Copy3" Content="DEV BY&#xD;&#xA;&#xA;Karin Vitoonkijwanit             #1913110449&#xA;Songkiet Siriso                     #1913110498&#xA;Devid Sykes                          #1913110480&#xA;Ratiphol Thammawattana    #1913140016" Margin="222,88,10,68.5" FontSize="16" Foreground="#DDFFFFFF" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

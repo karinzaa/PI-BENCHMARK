@@ -48,7 +48,7 @@
         </EventTrigger>
     </Window.Triggers>
     <Grid fw:PointerTracker.Enabled="True">
-        <TextBox x:Name="textBox1" HorizontalAlignment="Center" Height="213" TextWrapping="Wrap" Text="TextBox" Width="458" TextChanged="TextBox_TextChanged" Margin="40,30,40,48" RenderTransformOrigin="0.5,0.5">
+        <TextBox x:Name="textBox1" HorizontalAlignment="Center" Height="213" TextWrapping="Wrap" Text="TextBox" Width="458" TextChanged="TextBox_TextChanged" Margin="40,30,40,48" RenderTransformOrigin="0.5,0.5" FontFamily="Segoe UI">
             <TextBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -58,7 +58,7 @@
                 </TransformGroup>
             </TextBox.RenderTransform>
         </TextBox>
-        <Button x:Name="button" Content="OK" Height="38" Margin="410,0,10,5" VerticalAlignment="Bottom" Style="{StaticResource ButtonRevealStyle}" Foreground="White" Background="{x:Null}" FontFamily="Niramit" RenderTransformOrigin="0.5,0.5" Click="Button_Click" FontSize="18" >
+        <Button x:Name="button" Content="OK" Height="38" Margin="410,0,10,5" VerticalAlignment="Bottom" Style="{StaticResource ButtonRevealStyle}" Foreground="White" Background="{x:Null}" FontFamily="Segoe UI" RenderTransformOrigin="0.5,0.5" Click="Button_Click" FontSize="18" >
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

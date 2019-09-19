@@ -155,8 +155,7 @@ namespace ProjectTNIFluentDesign
                         plus = sq + re;
                         divide = sq / re;
                         mod = sq % re;
-                      
-
+     
                     }
                    
                 }
@@ -164,7 +163,7 @@ namespace ProjectTNIFluentDesign
             });
 
             MessageBoxButton buttons = MessageBoxButton.OK;
-            MessageBox.Show(timeSpan.ToString(), "Done");
+            MessageBox.Show(timeSpan.ToString(),"Done");
             DateTime CurrentDate;
             CurrentDate = DateTime.Now;
             Microsoft.Win32.SaveFileDialog save = new Microsoft.Win32.SaveFileDialog();

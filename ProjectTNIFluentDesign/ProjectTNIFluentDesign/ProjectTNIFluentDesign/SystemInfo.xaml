@@ -97,7 +97,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="button" Content="OK" Height="38" Margin="410,0,10,5" VerticalAlignment="Bottom" Style="{StaticResource ButtonRevealStyle}" Foreground="White" Background="{x:Null}" FontFamily="Niramit" RenderTransformOrigin="0.5,0.5" Click="Button_Click" FontSize="18" >
+        <Button x:Name="button" Content="OK" Height="38" Margin="410,0,10,5" VerticalAlignment="Bottom" Style="{StaticResource ButtonRevealStyle}" Foreground="White" Background="{x:Null}" RenderTransformOrigin="0.5,0.5" Click="Button_Click" FontSize="18" >
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -107,7 +107,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button1" Content="Save" Height="38" Margin="287,0,133,5" VerticalAlignment="Bottom" Style="{StaticResource ButtonRevealStyle}" Foreground="White" Background="{x:Null}" FontFamily="Niramit" RenderTransformOrigin="0.5,0.5" Click="Button1_Click" FontSize="18">
+        <Button x:Name="button1" Content="Save" Height="38" Margin="287,0,133,5" VerticalAlignment="Bottom" Style="{StaticResource ButtonRevealStyle}" Foreground="White" Background="{x:Null}" RenderTransformOrigin="0.5,0.5" Click="Button1_Click" FontSize="18">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -117,7 +117,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="90,76,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="White" FontFamily="Niramit" FontSize="16" Opacity="0" RenderTransformOrigin="0.5,0.5" >
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="90,76,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="White" FontSize="16" Opacity="0" RenderTransformOrigin="0.5,0.5" >
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -128,7 +128,7 @@
             </TextBlock.RenderTransform>
         </TextBlock>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="22" Margin="-198,25,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" IsEnabled="False"/>
-        <Label x:Name="label" Content="CPU" HorizontalAlignment="Left" Margin="85,30,0,0" VerticalAlignment="Top" Foreground="#DDFFFFFF" FontFamily="Niramit" FontSize="20" Opacity="0" RenderTransformOrigin="0.5,0.5">
+        <Label x:Name="label" Content="CPU" HorizontalAlignment="Left" Margin="85,30,0,0" VerticalAlignment="Top" Foreground="#DDFFFFFF" FontSize="20" Opacity="0" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -138,7 +138,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="90,180,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="White" FontFamily="Niramit" FontSize="16" Opacity="0" RenderTransformOrigin="0.5,0.5" >
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="90,180,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="White" FontSize="16" Opacity="0" RenderTransformOrigin="0.5,0.5" >
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -149,7 +149,7 @@
             </TextBlock.RenderTransform>
         </TextBlock>
         <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="22" Margin="-198,91,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox2_TextChanged" IsEnabled="False"/>
-        <Label x:Name="label_Copy" Content="RAM" HorizontalAlignment="Left" Margin="86,136,0,0" VerticalAlignment="Top" Foreground="#DDFFFFFF" FontFamily="Niramit" FontSize="20" Opacity="0" RenderTransformOrigin="0.5,0.5">
+        <Label x:Name="label_Copy" Content="RAM" HorizontalAlignment="Left" Margin="86,136,0,0" VerticalAlignment="Top" Foreground="#DDFFFFFF" FontSize="20" Opacity="0" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -159,7 +159,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Button x:Name="more" Content="More" Height="24" Margin="136,0,362,224" VerticalAlignment="Bottom" Style="{StaticResource ButtonRevealStyle}" Foreground="White" Background="{x:Null}" FontFamily="Niramit" RenderTransformOrigin="0.5,0.5" Click="More_Click" FontSize="10">
+        <Button x:Name="more" Content="More" Height="24" Margin="136,0,362,224" VerticalAlignment="Bottom" Style="{StaticResource ButtonRevealStyle}" Foreground="White" Background="{x:Null}" RenderTransformOrigin="0.5,0.5" Click="More_Click" FontSize="10" IsEnabled="False">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -169,7 +169,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="more2" Content="More" Height="24" Margin="136,0,362,117" VerticalAlignment="Bottom" Style="{StaticResource ButtonRevealStyle}" Foreground="White" Background="{x:Null}" FontFamily="Niramit" RenderTransformOrigin="0.5,0.5" Click="More2_Click" FontSize="10">
+        <Button x:Name="more2" Content="More" Height="24" Margin="136,0,362,117" VerticalAlignment="Bottom" Style="{StaticResource ButtonRevealStyle}" Foreground="White" Background="{x:Null}" RenderTransformOrigin="0.5,0.5" Click="More2_Click" FontSize="10">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
