@@ -14,7 +14,7 @@
 * Clone `PI-BENCHMARK` in to your compurter.</n>
 * Unzip `PI-BENCHMARK.zip`</n>
 * Open`ProjectTNI.exe`</n> 
-* Click `Select Value to caculate` in `ComBoBox`.</n> 
+* Click `Select Value to caculate` in `Combo Box`.</n> 
 * Click `Start` `Button`.</n> 
 * Waiting your computer caculate
 * If your computer caculate complete program are show caculate time and show filesave directory windows.
