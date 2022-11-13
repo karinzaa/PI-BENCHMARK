@@ -104,7 +104,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Label x:Name="label" Content="未来" HorizontalAlignment="Left" Margin="45,100,0,130.5" Width="111" FontSize="50" Foreground="#DDFFFFFF" RenderTransformOrigin="0.5,0.5">
+        <Label x:Name="label" Content="改善" HorizontalAlignment="Left" Margin="44.445,106.656,0,123.844" Width="111" FontSize="50" Foreground="#DDFFFFFF" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -124,7 +124,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Label x:Name="label_Copy1" Content="Mirai" HorizontalAlignment="Left" Margin="76.667,0,0,103.833" Width="49.667" FontSize="18" Foreground="#DDFFFFFF" Height="44" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5">
+        <Label x:Name="label_Copy1" Content="Kaizen" HorizontalAlignment="Left" Margin="67.792,0,0,95.721" Width="62.425" FontSize="18" Foreground="#DDFFFFFF" Height="34.779" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -134,7 +134,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Label x:Name="label_Copy2" Content="PI BENCHMAEK [VER 1.3 BETA R1 2019]" Margin="241,22,10,0" FontSize="16" Foreground="#DDFFFFFF" Height="44" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+        <Label x:Name="label_Copy2" Content="PI BENCHMAEK [2.0 R2 2022]" Margin="254.75,22.577,15,0" FontSize="20" Foreground="#DDFFFFFF" Height="35.173" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -144,7 +144,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Label x:Name="label_Copy3" Content="DEV BY&#xD;&#xA;&#xA;Karin Vitoonkijwanit             #1913110449&#xA;Songkiet Siriso                     #1913110498&#xA;Devid Sykes                          #1913110480&#xA;Ratiphol Thammawattana    #1913140016" Margin="222,88,10,68.5" FontSize="16" Foreground="#DDFFFFFF" RenderTransformOrigin="0.5,0.5">
+        <Label x:Name="label_Copy3" Content="BY TNI CYBERSEC&#xD;&#xA;&#xA;Karin Vitoonkijwanit            &#xA;Songkiet Siriso                     &#xA;Devid Sykes                          &#xA;Ratiphol Thammawattana    " Margin="222,83.342,15,74.067" FontSize="18" Foreground="#DDFFFFFF" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -154,7 +154,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Image x:Name="Pi_BenchmarkIcon_PNG" Margin="209.667,25,0,0" Source="Pi_BenchmarkIcon.PNG" Stretch="Fill" HorizontalAlignment="Left" Height="32.75" VerticalAlignment="Top" Width="32.75" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="Pi_BenchmarkIcon_PNG" Margin="222,25,0,0" Source="Pi_BenchmarkIcon.PNG" Stretch="Fill" HorizontalAlignment="Left" Height="32.75" VerticalAlignment="Top" Width="32.75" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
