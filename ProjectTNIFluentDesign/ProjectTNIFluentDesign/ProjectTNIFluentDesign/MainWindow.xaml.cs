@@ -70,6 +70,7 @@ namespace ProjectTNIFluentDesign
         }
         public void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+
             if (ComboBox1.SelectedIndex == 0)
             {
                 x = 10000000;
@@ -138,26 +139,35 @@ namespace ProjectTNIFluentDesign
 
             var timeSpan = StopwatchHelper.MeasureRunTime(() =>
             {
-
-                for (double u = 0; u < y; u++)
+                try
                 {
 
-                    for (double i = 0; i < x; i++)
+                
+
+                    for (double u = 0; u < y; u++)
                     {
-                        double sq, re, minus , time, plus, divide, mod;
-                        Random r = new Random();
-                        double genRand = r.Next(100000000, 999999999);
-                        var pi = Math.PI;
-                        sq = pi * genRand * genRand;
-                        re = 2 * pi * genRand;
-                        minus = sq - re;
-                        time = sq * re;
-                        plus = sq + re;
-                        divide = sq / re;
-                        mod = sq % re;
-     
-                    }
                    
+                        for (double i = 0; i < x; i++)
+                        {
+                            double sq, re, minus, time, plus, divide, mod;
+                            Random r = new Random();
+                            double genRand = r.Next(100000000, 999999999);
+                            var pi = Math.PI;
+                            sq = pi * genRand * genRand;
+                            re = 2 * pi * genRand;
+                            minus = sq - re;
+                            time = sq * re;
+                            plus = sq + re;
+                            divide = sq / re;
+                            mod = sq % re;
+
+                        }
+                    
+                    }
+                }
+                catch (Exception)
+                {
+                   MessageBox.Show("An error occured", "Plese Wait");
                 }
 
             });
