@@ -144,7 +144,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Label x:Name="label_Copy3" Content="BY TNI CYBERSEC&#xD;&#xA;&#xA;Karin Vitoonkijwanit            &#xA;Songkiet Siriso                     &#xA;Devid Sykes                          &#xA;Ratiphol Thammawattana    " Margin="222,83.342,15,74.067" FontSize="18" Foreground="#DDFFFFFF" RenderTransformOrigin="0.5,0.5">
+        <Label x:Name="label_Copy3" Content="BY TNI CYBERSEC&#xA;&#xA;Awesome tool for inspect ram &#xD;&#xA;information and benchmark your &#xD;&#xA;computer in not admin role.    " Margin="222,83.342,15,74.067" FontSize="18" Foreground="#DDFFFFFF" RenderTransformOrigin="0.5,0.5" ScrollViewer.HorizontalScrollBarVisibility="Auto">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

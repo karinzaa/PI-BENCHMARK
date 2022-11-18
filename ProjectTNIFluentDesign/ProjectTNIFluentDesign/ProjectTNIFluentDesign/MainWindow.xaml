@@ -13,67 +13,76 @@
         <Storyboard x:Key="Storyboard1">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label">
                 <SplineDoubleKeyFrame KeyTime="0" Value="-42"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="-42" KeySpline="0.24,0.95,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="-42" KeySpline="0.24,0.95,1,1"/>
                 <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="0" KeySpline="0.24,0.95,1,1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="label">
                 <SplineDoubleKeyFrame KeyTime="0" Value="0"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="0" KeySpline="0.24,0.95,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="0" KeySpline="0.24,0.95,1,1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="label1">
                 <SplineDoubleKeyFrame KeyTime="0" Value="-54"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:0.9" Value="-54" KeySpline="0.01,0.84,1,1"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="0" KeySpline="0.01,0.84,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="-54" KeySpline="0.01,0.84,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.6" Value="0" KeySpline="0.01,0.84,1,1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="ComboBox1">
                 <SplineDoubleKeyFrame KeyTime="0" Value="-135"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="-135" KeySpline="0,1,1,1"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="0" KeySpline="0,1,1,1"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Button2">
-                <SplineDoubleKeyFrame KeyTime="0" Value="79"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:1" Value="79" KeySpline="0,1,1,1"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:1.6" Value="0" KeySpline="0,1,1,1"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Button1">
-                <SplineDoubleKeyFrame KeyTime="0" Value="248"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:0.8" Value="248" KeySpline="0,1,1,1"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="0" KeySpline="0,1,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="-135" KeySpline="0,1,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.6" Value="9.6" KeySpline="0,1,1,1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Pi_Benchmark_PNG">
                 <SplineDoubleKeyFrame KeyTime="0" Value="-50"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="-50" KeySpline="0,1,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="-50" KeySpline="0,1,1,1"/>
                 <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="2" KeySpline="0,1,1,1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Pi_Benchmark_PNG">
                 <SplineDoubleKeyFrame KeySpline="0,1,1,1" KeyTime="0" Value="0"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
                 <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="0.91"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="label">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="label1">
                 <SplineDoubleKeyFrame KeyTime="0" Value="0"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:0.9" Value="0" KeySpline="0,1,1,1"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="1" KeySpline="0,1,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="0" KeySpline="0,1,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.6" Value="1" KeySpline="0,1,1,1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ComboBox1">
                 <SplineDoubleKeyFrame KeyTime="0" Value="0"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="0" KeySpline="0,1,1,1"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="1" KeySpline="0,1,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="0" KeySpline="0,1,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.6" Value="1" KeySpline="0,1,1,1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Button1">
                 <SplineDoubleKeyFrame KeyTime="0" Value="0"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:0.8" Value="0" KeySpline="0,1,1,1"/>
-                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="1" KeySpline="0,1,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="0" KeySpline="0,0,0,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.8" Value="1" KeySpline="0,0,0,1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Button2">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="1"/>
+                <SplineDoubleKeyFrame KeyTime="0" Value="0" KeySpline="0,0,0,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="0" KeySpline="0,0,0,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.5" Value="1" KeySpline="0,0,0,1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Button1">
+                <SplineDoubleKeyFrame KeyTime="0" Value="130.3"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="21.591908985449948" KeySpline="0,0,0,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.8" Value="0" KeySpline="0,0,0,1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Button1">
+                <SplineDoubleKeyFrame KeyTime="0" Value="-0.4"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="-1.6" KeySpline="0,0,0,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.8" Value="-1.6" KeySpline="0,0,0,1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Button2">
+                <SplineDoubleKeyFrame KeyTime="0" Value="256"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="256"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.5" Value="0" KeySpline="0,1,0,1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="ComboBox1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="-1.2"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
     </Window.Resources>
@@ -83,7 +92,7 @@
         </EventTrigger>
     </Window.Triggers>
     <Grid fw:PointerTracker.Enabled="True">
-        <Button x:Name="Button1" Content="Start" HorizontalAlignment="Left" Margin="314,10,0,0" VerticalAlignment="Top" Width="229" Height="194" Background="Transparent"  Style="{StaticResource ButtonRevealStyle}" Foreground="White" FontFamily="Segoe UI" FontSize="40" Click="Button_Click" RenderTransformOrigin="0.5,0.5">
+        <Button x:Name="Button1" Content="Start" HorizontalAlignment="Left" Margin="60,151,0,0" VerticalAlignment="Top" Width="237" Height="51" Background="Transparent"  Style="{StaticResource ButtonRevealStyle}" Foreground="White" FontFamily="Segoe UI" FontSize="28" Click="Button_Click" RenderTransformOrigin="-0.591,0.725">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -93,7 +102,20 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <ComboBox x:Name="ComboBox1" HorizontalAlignment="Left" Margin="60,76,0,0" VerticalAlignment="Top" Width="237" BorderBrush="#89FFFFFF" Height="54" FontFamily="Segoe UI" FontSize="30" SelectedIndex="0" HorizontalContentAlignment="Center" MaxDropDownHeight="180" SelectionChanged="ComboBox_SelectionChanged" Background="White" Foreground="Black" RenderTransformOrigin="0.5,0.5" >
+        <Label x:Name="label1" Content="Value to calculate" Margin="57,11,254.5,0" VerticalAlignment="Top" Foreground="White" FontSize="30" RenderTransformOrigin="0.5,0.154" FontFamily="Segoe UI">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <ComboBox x:Name="ComboBox1" HorizontalAlignment="Left" Margin="60,73.323,0,93.977" Width="237" BorderBrush="White" FontFamily="Segoe UI" FontSize="30" SelectedIndex="0" HorizontalContentAlignment="Center" MaxDropDownHeight="180" SelectionChanged="ComboBox_SelectionChanged" Foreground="Black" RenderTransformOrigin="0.5,0.5" >
+            <ComboBox.Background>
+                <SolidColorBrush Color="White" Opacity="0.75"/>
+            </ComboBox.Background>
             <ComboBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -113,7 +135,7 @@
             <ComboBoxItem Content="90M" />
             <ComboBoxItem Content="100M" />
         </ComboBox>
-        <Button x:Name="Button2" Content="SystemInfo" HorizontalAlignment="Left" Margin="60,150,0,0" VerticalAlignment="Top" Width="237" Height="54" Background= "Transparent" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFFEFEFE" FontFamily="Segoe UI" FontSize="24" Click="Button1_Click" RenderTransformOrigin="0.5,0.5">
+        <Button x:Name="Button2" Content="SystemInfo" Margin="325,11,16.5,16.3" Background= "Transparent" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFFEFEFE" FontFamily="Segoe UI" FontSize="36" Click="Button1_Click" RenderTransformOrigin="0.5,0.5" d:LayoutOverrides="LeftMargin, RightMargin">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -133,16 +155,6 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Label x:Name="label1" Content="Value to calculate" Margin="60,16,255.5,0" VerticalAlignment="Top" Foreground="White" FontSize="24" RenderTransformOrigin="0.5,0.154" FontFamily="Segoe UI" HorizontalAlignment="Center">
-            <Label.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Label.RenderTransform>
-        </Label>
         <Image x:Name="Pi_Benchmark_PNG" Height="32.333" Margin="10,0,0,9" Source="Pi_BenchmarkIcon.PNG" Stretch="Fill" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="32.333" RenderTransformOrigin="0.5,0.5" OpacityMask="{x:Null}">
             <Image.RenderTransform>
                 <TransformGroup>
@@ -153,7 +165,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="12,177.712,0,0" VerticalAlignment="Top" Width="32" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_1"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="12.333,177.967,0,0" VerticalAlignment="Top" Width="32" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_1"/>
 
     </Grid>
 </Window>
